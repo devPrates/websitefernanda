@@ -12,10 +12,10 @@ export default function Header() {
             <h1 className="font-bold">Fernanda Personal</h1>
             <div className="grow">
                 <div className="hidden sm:flex items-center justify-center gap-2 md:gap-8">
-                    <Link href="Home">Home</Link>
-                    <Link href="sobre">Sobre Mim</Link>
-                    <Link href="planos">Planos</Link>
-                    <Link href="mentoria">Mentoria</Link>
+                    <Link href="#Home">Home</Link>
+                    <Link href="#sobre">Sobre Mim</Link>
+                    <Link href="#planos">Planos</Link>
+                    <Link href="#mentoria">Mentoria</Link>
                 </div>
             </div>
             <div className="flex grow items-center justify-end sm:hidden">
@@ -49,22 +49,22 @@ export default function Header() {
                     <div className="mt-6">
                       <nav className="grid gap-y-8">
                         <Link 
-                          href="Home"
+                          href="#Home"
                           className="focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500 px-2">
                             Home 
                         </Link>
                         <Link 
-                          href="sobre"
+                          href="#sobre"
                           className="focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500 px-2">
                             Sobre Mim 
                         </Link>
                         <Link 
-                          href="planos"
+                          href="#planos"
                           className="focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500 px-2">
                             Planos 
                         </Link>
                         <Link 
-                          href="mentoria"
+                          href="#mentoria"
                           className="focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500 px-2">
                             Mentoria 
                         </Link>
@@ -72,8 +72,8 @@ export default function Header() {
                     </div>
                     <div className="mt-6 flex flex-col items-center gap-2">
                       <Link 
-                        href="contato" 
-                        className="rounded-lg bg-white px-4 py-2 text-sm font-medium text-black md:text-xl w-full border-2 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500">
+                        href="#contato" 
+                        className="rounded-lg bg-gray-500 px-4 py-2 text-sm font-medium text-black md:text-xl w-full border-2 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500">
                           Contate-Me
                       </Link>
                     </div>
