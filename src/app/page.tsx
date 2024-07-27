@@ -1,9 +1,10 @@
+import Header from "@/components/Header"
 import { Button } from "@/components/ui/button"
 
 export default function Home() {
   return (
     <>
-      <Button>Teste do shadcn</Button>
+      <Header />
     </>
   );
 }
